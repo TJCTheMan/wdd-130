@@ -1,0 +1,55 @@
+body {
+    background-color: #ffa2ca;
+}
+
+main{
+     text-align: center; 
+     font-size:x-large;
+}
+
+#heading-and-intro h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    color:white;
+
+}
+#heading-and-intro h1:hover{
+    font-size: xx-large;
+    color:black;
+
+}
+
+#heading-and-intro blockquote{
+    color:white;
+
+}
+
+#heading-and-intro p{
+    color:white;
+    font-family: sans-serif;
+
+}
+
+ol{
+    font-family: sans-serif;
+    display: inline-block;
+    text-align: left;
+    font-size: larger;
+    color:black;
+
+}
+
+#picture-and-quote img{
+    max-width: 20%;
+    min-width: 10%;
+}
+
+#picture-and-quote blockquote{
+
+    color:white;
+    font-size: larger;
+}
+
+footer{
+    color:black;
+}
