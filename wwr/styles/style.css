@@ -4,6 +4,11 @@
 
 }
 
+#hero-image{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 nav a{
     text-align: center;
     color: #396E94;
