@@ -1,0 +1,53 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+}
+
+#top-half{
+
+    width: auto;
+
+}
+
+#top-half img{
+
+    width:100%;
+
+}
+
+#bottom-half{
+    
+    background-color: #737373;
+    height: auto;
+}
+
+
+#bottom-left{
+
+    margin: 75px 0 75px 5%;
+    width: 20%;
+    border-radius: 50% 50%;
+    border: solid 10px #414141;
+
+}
+
+#bottom-center{
+
+    margin: 0 0 75px 10%;
+    width: 20%;
+    border-radius: 50% 50%;
+    border: solid 10px #414141;
+
+}
+
+#bottom-right{
+
+    margin: 0 0 75px 10%;
+    width: 20%;
+    border-radius: 50% 50%;
+    border: solid 10px #414141;
+
+}
