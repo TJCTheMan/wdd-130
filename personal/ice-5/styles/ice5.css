@@ -19,10 +19,28 @@ body{
 
 #bottom-half{
     
-    height: auto;
+    width: auto; 
+
+}
+
+#bottom-images{
+
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+#bottom-images img{
+
+    margin: 15% auto;
+    width: 25%;
+    border-radius: 50% 50%;
+    border: solid 15px #444444;
+
 }
 
 
+/*  
 #bottom-left{
 
     margin: 75px 0 75px 5%;
@@ -49,3 +67,4 @@ body{
     border: solid 10px #414141;
 
 }
+*/
