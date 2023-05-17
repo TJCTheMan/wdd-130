@@ -1,8 +1,7 @@
 body{
 
+    background-color: #737373;
     margin: 0;
-    padding: 0;
-    border: 0;
 
 }
 
@@ -20,7 +19,6 @@ body{
 
 #bottom-half{
     
-    background-color: #737373;
     height: auto;
 }
 
