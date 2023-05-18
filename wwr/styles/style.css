@@ -1,10 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root{
+    
+    --heading-font: "Instrument Serif", serif;
+    --paragraph-font: Lato, Helvetica, sans-serif;
+    
+}
+
+body{
+
+    background-color: aliceblue;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: var(--paragraph-font);
+
+}
+
+h2{
+
+    margin: 0;
+
+}
+
 #content{
+
     max-width: 1600px;
     margin: 0 auto;
+    font-family: var(--paragraph-font);
 
 }
 
 #hero-image{
+
     display: block;
     width: 100%;
     margin: 0 auto;
@@ -12,108 +40,197 @@
 }
 
 nav a{
+
     text-align: center;
     color: #396E94;
     background-color: #58B09C;
     text-decoration: none;
+    font-family: var(--paragraph-font);
+    padding: 35px;
+
 }
 
 nav a:hover{
+
     color: white;
     background-color: #2374AB;
+    font-family: var(--paragraph-font);
+
 }
 
 .home-title{
+
     color: #396E94;
+    font-size: 2em;
+    font-family: var(--heading-font);
+    margin-top: 10px;
+
 }
 
 h4{
+
     color: #2374AB;
+    font-family: var(--heading-font);
+
 }
 
 #hero-msg h1, #hero-msg h4{
+
     text-align: center;
+    font-family: var(--heading-font);
 
 }
 
 .button-box{
+
     text-align: center;
 
 }
 
 main section{
+
     text-align: center;
+
+}
+main section img{
+
+    box-sizing: border-box;
 
 }
 
 #background{
+
     height: 725px;
     background-color: white;
-}
-
-body{
-    background-color: aliceblue;
+    
 }
 
 header{
+    
     background-color: #58B09C;
+    
 }
 
 .book, .join{
+    
     background-color: #58B09C;
     color: #396E94;
     text-decoration: none;
+    font-size: 18px;
+    padding : 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    
 }
 
 .book:hover, .join:hover{
+    
     background-color: #58B09C;
     color: #396E94;
+    
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    
+    margin: 200px 0;
+    
+}
+.card-img{
+    
+    border: 10px solid darkcyan;
+
 }
 
 .msg{
+    
     background-color: #58B09C;
+    line-height: 1.5em;
+    padding: 35px;
+    
 }
 
 .msg h2{
+    
     color: #2374AB;
+    font-family: var(--heading-font);
+    
 }
 
 .msg p{
+    
     color: #2374AB;
+    font-size: 0.8em;
+    font-family: var(--paragraph-font);
+    padding-bottom: 15px;
+    
 }
 
 footer{
+    
     background-color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
+
 }
 
 footer a{
+    
     color: #2374AB;
     text-decoration: none;
+    
 }
 
 footer a:hover{
+    
     color: white;
+    
 }
 
 footer p{
+    
     font-size: 1.2em;
+    font-family: var(--paragraph-font);
+    
 }
 
 footer p a:hover{
+    
     text-decoration: underline;
+    font-family: var(--paragraph-font);
+    
 }
 
+footer .social img{
+    
+    padding-top: 15px;
+    
+}
+
+#logo_link{
+    
+    padding-top: 5px;
+    
+}
+
+
 .logo{
+    
     width:80px;
+    padding: 10px 10px 30px 10px;
+    
 }
 
 .icon{
+    
     width: 80px;
+    padding-top: 10px;
+    
 }
 
 #hero img{
+    
     width: 100%;
-
+    
 }
 
 
