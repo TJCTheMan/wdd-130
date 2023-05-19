@@ -175,7 +175,7 @@ footer{
 
 footer a{
     
-    color: #2374AB;
+    color: #396E94;;
     text-decoration: none;
     
 }
@@ -187,7 +187,7 @@ footer a:hover{
 }
 
 footer p{
-    
+    color: #396E94;
     font-size: 1.2em;
     font-family: var(--paragraph-font);
     
