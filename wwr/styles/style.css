@@ -38,22 +38,26 @@ h2{
     margin: 0 auto;
     
 }
+nav{
+    margin-left: 15px;
+}
 
 nav a{
 
     text-align: center;
-    color: #396E94;
-    background-color: #58B09C;
+    background-color: #58B09C;;
+    color: #2374AB;
     text-decoration: none;
     font-family: var(--paragraph-font);
-    padding: 35px;
+    padding: 25px;
+    border-radius: 5px;
 
 }
 
 nav a:hover{
 
-    color: white;
-    background-color: #2374AB;
+    background-color: darkgray;
+    color: #2374AB;
     font-family: var(--paragraph-font);
 
 }
@@ -113,8 +117,8 @@ header{
 
 .book, .join{
     
-    background-color: #58B09C;
-    color: #396E94;
+    background-color: #396E94;;
+    color: #58B09C;
     text-decoration: none;
     font-size: 18px;
     padding : 15px 30px;
@@ -125,7 +129,7 @@ header{
 
 .book:hover, .join:hover{
     
-    background-color: #58B09C;
+    background-color: darkgray;
     color: #396E94;
     
 }
