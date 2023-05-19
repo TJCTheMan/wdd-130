@@ -2,7 +2,7 @@
 
 :root{
     
-    --heading-font: "Instrument Serif", serif;
+    --heading-font: "Instrument Serif", noto-serif, serif;
     --paragraph-font: Lato, Helvetica, sans-serif;
     
 }
