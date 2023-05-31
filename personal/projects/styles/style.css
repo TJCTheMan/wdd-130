@@ -1,0 +1,12 @@
+body{
+    box-sizing: border-box;
+}
+
+
+
+#cool-guy{
+    width: 58em;
+    margin: 1vh;
+    border: 1vw dashed aqua;
+
+}
