@@ -167,3 +167,15 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+.wf-small{
+
+width: 25%;
+
+}
+
+.wf-large{
+
+  padding: 1%;
+  width: 100%
+
+}
