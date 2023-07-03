@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script type="text/javascript">function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown menu if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      } </script>
+    <title>Dropdown List Example</title>
+</head>
+<body>
+
+    <h1>This is an example of a dropdown list.</h1>
+
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">List</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#">List Item 1</a>
+          <a href="#">List Item 2</a>
+          <a href="#">List Item 3</a>
+        </div>
+      </div> 
+    
+</body>
+</html>
